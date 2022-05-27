@@ -1,15 +1,19 @@
-timer();
+// TOG HJÄLP AV W3 SCHOOL STACK OCH SÖKTE PÅ RESTEN SEN BYGGDE IHOP PÅ EGET.
+function clockTick() {
+    let currentTime = new Date(),
+        month = currentTime.getMonth() + 1,
+        day = currentTime.getDate(),
+        year = currentTime.getFullYear(),
+        hours = currentTime.getHours(),
+        minutes = currentTime.getMinutes(),
+        seconds = currentTime.getSeconds(),
+        text = (month + "/" + day + "/" + year + ' ' + hours + ':' + minutes + ':' + seconds);
+    // här får vi elementbyid med tid.
+    document.getElementById('date').innerHTML = text;
+    tdmy.innerHTML=currentTime;
+  }
+  
+  //klockans sekunds intervall
+  setInterval(clockTick, 1000);
 
-function timer(){
- var now     = new Date,
-     hours   = now.getHours(),
-     ampm    = hours<12 ? ' AM' : ' PM',
-     minutes = now.getMinutes(),
-     seconds = now.getSeconds(),
-     t_str   = [hours-12, //otherwise: what's the use of AM/PM?
-                (minutes < 10 ? "0" + minutes : minutes),
-                (seconds < 10 ? "0" + seconds : seconds)]
-                 .join(':') + ampm;
- document.getElementById('time_span').innerHTML = t_str;
- setTimeout(timer,1000);
-}
+  console.log(currentTime);

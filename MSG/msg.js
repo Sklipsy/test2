@@ -30,12 +30,12 @@ function sendMsg(){
         minutes = currentTime.getMinutes(),
         seconds = currentTime.getSeconds(),
         text = (month + "/" + day + "/" + year + ' ' + hours + ':' + minutes + ':' + seconds);
-    // here we get the element with the id of "date" and change the content to the text variable we made above
+    // här får vi elementbyid med tid.
     document.getElementById('date').innerHTML = text;
     tdmy.innerHTML=currentTime;
   }
   
-  // here we run the clockTick function every 1000ms (1 second)
+  //klockans sekunds intervall
   setInterval(clockTick, 1000);
 
   console.log(currentTime);

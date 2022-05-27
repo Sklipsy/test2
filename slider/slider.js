@@ -25,3 +25,4 @@ function prevSlide(){
     counter--;
 container.style.backgroundImage = `url(img/bcg-${counter}.jpg)`
 }
+//tog lite av ideerna ifrån stack//w3school Så jag såg hur koden skulle se ut Och google.
