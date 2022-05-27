@@ -1,0 +1,65 @@
+body{
+    background-color: lightblue;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-transform:capitalize;
+}
+
+button{
+    font-size: 200%;
+    cursor: pointer;
+    border-radius: 20%; 
+    background-color: lightgreen;
+    box-shadow: 4px 6px;
+    padding: 15px 25px;
+    display:block;
+    margin: 1.5rem auto;
+    text-transform: capitalize;
+}
+
+h1{
+    font-size: 250%;
+    color: lightblue;
+    margin-bottom: 10%
+}
+
+h2{
+    font-size: 250%;
+    color: green;
+}
+
+.container{
+   background: white;
+   padding: 10%;
+   border-radius: 3%; 
+   text-align: center;
+}
+
+input[text=text]{
+    border-radius: 3%;
+    font-size: 1.5rem;
+    border-radius: 3%;
+}
+
+h3{
+    font-size: 300%;
+    position: absolute;
+    margin-bottom: 50%;
+    margin-right: 80%
+   
+}   
+
+#messageOut{
+    margin: 0.5rem 0;
+    color:cornflowerblue;
+}
+
+span{
+    font-size: 200%;
+    position: absolute;
+    bottom: 95%;
+    left: 75%;
+    color: black;
+}

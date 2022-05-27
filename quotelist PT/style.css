@@ -1,0 +1,52 @@
+h1{
+  position: absolute;
+  top: 1%;
+  left: 1%;
+    font-size: 250%
+}
+
+body{
+    background-color: lightblue;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.container{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10%;
+    flex:0 0 80%;   
+    background-color: white;
+}
+
+#quoteBtn{
+    border: none;
+    background-color: lightgreen;
+    padding: 0.25rem 0.5rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    
+}
+
+#quoteBtn:hover{
+    color: grey;
+    box-shadow: 4px 4px grey;
+}
+
+blockquote{
+    background: white;
+    border-left: 10px solid green;
+    margin: 2rem;
+    padding: 0.5rem;   
+}
+
+#quoteAuthor{
+    color: red;
+    font-size: 250%
+}
