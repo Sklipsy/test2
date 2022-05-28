@@ -29,7 +29,7 @@ let quotes = [
     }
      //  {
     //      name: 'Erik Magnusson',
-    //    quote: 'Jag kommer så klart få MVG när Gustav sett detta. :D'
+    // //tog lite av ideerna ifrån stack//w3school Så jag såg hur koden skulle se ut Och google. <--
     //}
 ];
 

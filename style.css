@@ -72,11 +72,30 @@ section {
 .flex-container > div,img {
   background-color: #f1f1f1;
   margin: 10px;
-  
   font-size: 3px;
   border-radius: 2%;
     flex-wrap: wrap;
     width: 100%;
+}
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: lightgreen;
+}
+
+.vertical-menu a.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
 /*anpassning på mindre skärm//monitor. (hämtade koden ifrån w3school)*/
