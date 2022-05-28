@@ -20,7 +20,7 @@ function sendMsg(){
     messageIn.value=''; 
  };
  }
- // TOG HJÄLP AV W3 SCHOOL STACK OCH SÖKTE PÅ RESTEN SEN BYGGDE IHOP PÅ EGET.
+ // TOG HJÄLP AV W3 SCHOOL STACK OCH SÖKTE PÅ RESTEN SEN BYGGDE IHOP PÅ EGET SÅG HUR DET SKULLE SE UT I SLUTET FÖR EGET SYFTE på projektet.
  function clockTick() {
     let currentTime = new Date(),
         month = currentTime.getMonth() + 1,
