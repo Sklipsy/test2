@@ -65,17 +65,18 @@ section {
 .flex-container {
   display: flex;
   background-color: DodgerBlue;
-  max-width: 23%;
+  max-width: 50%;
   border-radius: 2%;
 }
 
-.flex-container > div {
+.flex-container > div,img {
   background-color: #f1f1f1;
-  margin: 15px;
-  padding: 30px;
-  font-size: 30px;
+  margin: 10px;
+  
+  font-size: 3px;
   border-radius: 2%;
-
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 /*anpassning på mindre skärm//monitor. (hämtade koden ifrån w3school)*/
