@@ -63,3 +63,19 @@ span{
     left: 75%;
     color: black;
 }
+.active{
+    background-color: yellowgreen;
+}
+#ad {
+    left: 150%;
+}
+
+/*anpassning på mindre skärm//monitor. (w3school kod)*/
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+     }
+     .container {
+       background-color: lightgreen;
+     }
+  }

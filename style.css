@@ -77,34 +77,19 @@ section {
     flex-wrap: wrap;
     width: 100%;
 }
-.vertical-menu {
-  width: 200px;
-}
 
-.vertical-menu a {
-  background-color: #eee;
-  color: black;
-  display: block;
-  padding: 12px;
-  text-decoration: none;
-}
-
-.vertical-menu a:hover {
-  background-color: lightgreen;
-}
-
-.vertical-menu a.active {
-  background-color: #04AA6D;
-  color: white;
-}
 .active{
-  background-color: grey;
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
 }
 
-/*anpassning på mindre skärm//monitor. (hämtade koden ifrån w3school)*/
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
+/*anpassning på mindre skärm//monitor. (w3school)*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+   }
+   .container {
+     background-color: lightgreen;
+   }
 }

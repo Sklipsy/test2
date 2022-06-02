@@ -50,3 +50,16 @@ blockquote{
     color: red;
     font-size: 250%
 }
+.active{
+    background-color: greenyellow;
+}
+
+/*anpassning på mindre skärm//monitor. (w3school kod)*/
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+     }
+     .container {
+       background-color: lightgreen;
+     }
+  }
