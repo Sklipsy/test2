@@ -44,11 +44,12 @@ input[text=text]{
 }
 
 h3{
-    font-size: 300%;
+    font-size: 250%;
     position: absolute;
     margin-bottom: 50%;
-    margin-right: 80%
-   
+    margin-right: 70%;
+    margin-top: auto;
+    top:5%;
 }   
 
 #messageOut{
@@ -57,9 +58,9 @@ h3{
 }
 
 span{
-    font-size: 200%;
+    font-size: 150%;
     position: absolute;
-    bottom: 95%;
+    bottom: 90%;
     left: 75%;
     color: black;
 }
@@ -70,12 +71,12 @@ span{
     left: 150%;
 }
 
-/*anpassning på mindre skärm//monitor. (w3school kod)*/
+/*anpassning på mindre skärm//MOBIL. (w3school kod) KNAPPEN OCH CONTAINERN ÄNDRAR FÄRG VID 600PX*/
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-     }
      .container {
        background-color: lightgreen;
+     }
+     #sendBtn{
+         background-color: lightgoldenrodyellow;
      }
   }

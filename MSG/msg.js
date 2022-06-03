@@ -32,10 +32,10 @@ function sendMsg(){
         text = (month + "/" + day + "/" + year + ' ' + hours + ':' + minutes + ':' + seconds);
     // här får vi elementbyid med tid.
     document.getElementById('date').innerHTML = text;
-    tdmy.innerHTML=currentTime;
+    date.innerHTML=currentTime;
   }
   
   //klockans sekunds intervall
   setInterval(clockTick, 1000);
 
-  console.log(currentTime);
+ // console.log(currentTime);

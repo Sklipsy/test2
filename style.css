@@ -78,18 +78,18 @@ section {
     width: 100%;
 }
 
-.active{
-  background-color: lightblue;
-  margin: 0;
-  padding: 0;
+.active {
+  color: greenyellow;
+  background: grey;
 }
 
-/*anpassning på mindre skärm//monitor. (w3school)*/
+/*anpassning på mindre skärm//MOBIL. (w3school) (RAMEN TILL FLEXBOXEN BLIR SVART PÅ 600PX)*/
+
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+   .flex-container {
+     background-color: black;
    }
-   .container {
-     background-color: lightgreen;
+   #nr2{
+     background-color: white;
    }
 }

@@ -54,12 +54,15 @@ blockquote{
     background-color: greenyellow;
 }
 
-/*anpassning på mindre skärm//monitor. (w3school kod)*/
+/*anpassning på mindre skärm//MOBIL. (w3school kod) BÅDE CONTAINERN + */
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-     }
      .container {
        background-color: lightgreen;
+     }
+     #quoteAuthor{
+         color: blue;
+     }
+     #quoteBtn{
+         background-color: blue;
      }
   }

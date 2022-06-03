@@ -48,7 +48,7 @@ h4{
 
 .btn:hover{
     box-shadow: 0 4px 4px black, 0 4px 4px  black;
-    background: white;
+    background: lightblue;
 }
 
 .btn:active{
@@ -63,12 +63,15 @@ h4{
 #slidi {
     right: 150%;
 }
-/*anpassning på mindre skärm//monitor. (w3school kod)*/
+/*anpassning på mindre skärm//MOBIL. (w3school kod) (VID 600 PX SÅ BLIR KNAPPARNA SVARTA VID HOVRING, mitt namn blir blått)*/
 @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
      }
-     .images {
-       background-color: lightgreen;
+     .btn:hover {
+       background-color: black;
+     }
+     #be{
+         color: blue;
      }
   }
