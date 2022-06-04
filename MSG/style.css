@@ -64,12 +64,39 @@ span{
     left: 75%;
     color: black;
 }
-.active{
-    background-color: yellowgreen;
-}
-#ad {
-    left: 150%;
-}
+
+
+.active {
+    color: greenyellow;
+    background: green;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+    top: 20%;
+    right: 77%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: greenyellow;
+  }
+  
 
 /*anpassning på mindre skärm//MOBIL. (w3school kod) KNAPPEN OCH CONTAINERN ÄNDRAR FÄRG VID 600PX*/
 @media only screen and (max-width: 600px) {
